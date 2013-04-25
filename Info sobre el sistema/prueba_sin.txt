@@ -3,8 +3,11 @@ esto es
 una prueba
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 linea de nathaly
 =======
+=======
+>>>>>>> 268464943b1eea888a63d16f475e36521bf7e07a
 =======
 >>>>>>> 268464943b1eea888a63d16f475e36521bf7e07a
 linea de maria y de zuldy..... 
@@ -17,6 +20,10 @@ linea de maria y de zuldy.....
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+y mi lineas mas abajo :D
+>>>>>>> 268464943b1eea888a63d16f475e36521bf7e07a
+=======
 y mi lineas mas abajo :D
 >>>>>>> 268464943b1eea888a63d16f475e36521bf7e07a
 =======
