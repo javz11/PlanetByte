@@ -1,0 +1,6 @@
+En esta carpeta se agregarán los php css js etc necesarios para el modulo del vendedor, el cual consta:
+
+Facturación
+Cotización
+Fallos
+Algunos reportes

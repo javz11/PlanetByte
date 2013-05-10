@@ -1,0 +1,5 @@
+En esta carpeta se agregarán los php css js etc necesarios para el modulo del gerente, el cual consta:
+
+Registro de compras
+Registro de pedidos
+Algunos reportes

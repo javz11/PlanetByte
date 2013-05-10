@@ -1,0 +1,7 @@
+En esta carpeta se agregarán los php css js etc necesarios para el modulo del administrador o superusuario, el cual consta:
+
+Paginas de index, nosotros, contacto, inicio sesion, recuperacion de contraseña, y demas estaticas que consideren necesarias.
+Gestion de tablas maestras
+Reportes
+Manejo de Bitácora
+Auditoria
