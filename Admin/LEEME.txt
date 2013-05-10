@@ -5,3 +5,4 @@ Gestion de tablas maestras
 Reportes
 Manejo de Bitácora
 Auditoria
+Menu.php -> menu por el que vamos a guiarnos y trabajar
