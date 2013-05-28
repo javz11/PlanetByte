@@ -1,0 +1,336 @@
+@charset "utf-8";
+/* CSS PlanetByte */
+/* Letra y fondo del cuerpo de la página completa*/
+body
+{
+	font:12px Arial, Helvetica, sans-serif;color:#000;
+	background:url(Imagenes/body_fondo.png) top repeat-x #fff;
+	line-height:20px;
+}
+h1 
+{
+	text-align:center;
+	padding:0px 0px 5px 0px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#051B93;
+}
+h2 
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#051B93;
+}
+/* Ancho de la página*/
+#cuerpo
+{
+	width:900px;
+	margin:0px auto;
+}
+/* Banner */
+#banner
+{
+	width:900px;
+	height:113px
+}
+/* Logo a la izquierda*/
+#banner .logo
+{
+	float:left;
+	width:610px;
+	height:113px;
+}
+/*Inicio de sesion*/
+#banner .login
+{
+	float:right;
+	width:250px;
+	height:113px;
+}
+/*Tipo de letra en el inicio de sesion*/
+#banner .login .texto
+{
+	color:#FFF;
+	text-align:left;
+	float:left;
+	height:16px;
+	width:50px;
+	padding-bottom:10px;
+}
+/* propiedades de los textfield*/
+#banner .login .cajas
+{
+	width:250px;
+	float:right;
+	height:16px;
+	width:200px;
+	padding-bottom:10px;
+}
+/* Linea de división Vertical */
+#lineV
+{
+	background:url(Imagenes/linea.gif) center repeat-y;
+	height:113px;
+	width:40px;
+	float:left;
+}
+/* Mensajes de error*/
+#errorD
+{
+	width:100px; 
+	color:#FF0;
+}
+/* Linea o espacio en blanco*/
+#espacio
+{
+	height:8px;
+}
+#espacioG
+{
+	height:20px;
+}
+/*Enlaces simples derecha*/
+#enlacesDer 
+{
+	text-align:right;
+}
+#enlacesDer a 
+{
+	color:#009FFF;
+	text-decoration:none;
+}
+/* Menu principal*/
+#menu 
+{
+	text-align:center;
+	height:30px;
+	margin:0px auto;
+	padding:10px 0px 0px 0px;
+	width:900px;
+	background:url(Imagenes/botones.png) center top no-repeat;
+}
+#menu a 
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;display:block;
+	float:left;
+	text-decoration:none;
+	color:#0059FF;text-align:center;
+	padding-top:0px;
+	font-weight:100;
+	width:120px;
+}
+#menu .but:hover 
+{
+	text-decoration:underline;
+}
+/* Presentacion de Imagenes*/
+.arriba 
+{
+	height:334px;
+	padding-top:10px;
+	padding-left:10px;
+	background:url(Imagenes/fondoImagenes.jpg) left top no-repeat;
+}
+.scrollable 
+{
+	position:relative;
+	overflow:hidden;
+	width:885px;
+	height:311px
+} 
+.scrollable .items 
+{
+	width:20000em;
+	position:absolute;
+}
+.scrollable .items div 
+{
+	float:left;
+} 
+.scrollable .items .item 
+{
+	overflow:hidden;
+}
+.scrollable .items .item p 
+{
+	line-height:16px;
+}
+.item 
+{
+	width:885px;
+	height:311px;
+	padding-left:0px;
+}
+.item img 
+{
+	float:left;
+}
+.item h2 
+{
+	border:none;
+	margin-bottom:15px;
+}
+.imagen1 
+{
+	width:880px;
+	height:311px;
+	background:url(Imagenes/Ejemplo/imagen1.jpg) no-repeat;
+}
+.imagen2 
+{
+	width:880px;
+	height:311px;
+	background:url(Imagenes/Ejemplo/imagen2.jpg) no-repeat;
+}
+.imagen3 
+{
+	width:880px;
+	height:311px;
+	background:url(Imagenes/Ejemplo/imagen3.jpg) no-repeat;
+}
+.imagen4 
+{
+	width:880px;
+	height:311px;
+	background:url(Imagenes/Ejemplo/imagen4.jpg) no-repeat;
+}
+/* fin de la presentacion*/
+.top_bot 
+{
+	background:url(Imagenes/top_bot.jpg) left top no-repeat;
+	height:28px;
+}
+/* Barra para el paso de las imagenes*/
+.navi 
+{
+	width:auto;
+	height:20px;
+	float:right;
+	margin:5px 0;
+	padding-right:20px;
+} 
+.navi a 
+{
+	width:19px;
+	cursor:pointer;
+	height:19px;
+	float:left;
+	margin:0 0 0 1px;
+	background:url(Imagenes/prev_but.png) no-repeat scroll right top;
+	display:block;
+	font-size:1px;
+} 
+.navi a:hover, .navi a.active 
+{
+	background-position:left top;
+	margin:0 0 0 1px;
+	background:url(Imagenes/prev_but_hov.png) no-repeat scroll right top;
+}
+#contenido 
+{
+	width:876px;
+	margin:0px auto;
+	background:#E6F6FF;
+	padding:0px 12px 5px 12px;
+	line-height:22px;
+	text-align:justify;
+}
+/* Parte de arriba del contenido*/
+#contenido_top 
+{
+	width:900px;
+	background: url(Imagenes/contenido_top.png) 0px top no-repeat;
+	height:10px;
+}
+/* Parte de abajo del contenido*/
+#contenido_bot 
+{
+	width:900px;
+	background:url(Imagenes/contenido_bot.png) 0px bottom no-repeat;
+	height:9px;
+} 
+/* Propiedades del pie de pagina*/
+#pie 
+{
+	background:#E6F6FF;
+	margin:0px auto;color:#000;
+	padding:0px 0px 0px 15px;
+}
+#pie ul 
+{
+	list-style:none;
+	padding:0px 0px 0px 0px;
+}
+#pie li 
+{
+	padding:8px 0px 0px 0px;
+}
+#pie ul a:hover 
+{
+	text-decoration:underline;
+}
+#pie ul a 
+{
+	color:#000;
+	text-decoration:none;
+	font-weight:100;
+	cursor:pointer;
+}
+/* Columnas en las que se divide el pie de pagina*/
+#b_col1 
+{
+	width:220px;
+	float:left;
+	margin-left:0;
+}
+#b_col2 
+{
+	width:180px;
+	float:left;
+	margin-left:57px;
+}
+#b_col3 
+{
+	width:160px;
+	float:left;
+	margin-left:20px;
+	text-align:left;
+}
+#b_col4 
+{
+	width:184px;
+	float:left;
+	margin-left:35px;
+	text-align:left;
+}
+/* Div para colocar el fin de la pagina*/
+#footer 
+{
+	font-size:11px;
+	color:#000;
+	text-align:center;
+	padding:20px 0px 0px 0px;
+	height:60px;
+	text-align:center;
+	margin:0px auto;
+}
+#footer a 
+{
+	color:#000;
+	font-size:11px;
+	text-decoration:none;
+}
+#footer a:hover 
+{
+	color:#000;
+	font-size:11px;
+	text-decoration:underline;
+}
+/* division de el contenido con linea puntuada*/
+.puntos 
+{
+	background:url(Imagenes/puntos.gif) 0px 2px repeat-x;
+	height:5px;
+}
